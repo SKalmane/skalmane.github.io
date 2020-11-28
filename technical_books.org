@@ -1,0 +1,18 @@
+#+TITLE: My technical reading list
+#+OPTIONS: toc:nil
+
+This page contains my technical reading list
+
+* [[https://www.rand.org/content/dam/rand/pubs/research_memoranda/2006/RM3420.pdf][On distributed communications by Baran]]
+
+* Queuing systems by Kleinrock
+
+* [[https://www.cs.princeton.edu/courses/archive/fall06/cos561/papers/cerf74.pdf][A Protocol for Packet Network Intercommunication by Cerf and Kahn]]
+
+* [[https://www.csee.umbc.edu/courses/471/papers/turing.pdf][Computing machinery and Intelligence by Alan Turing]]
+
+* [[http://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf][A Mathematical theory of Communication by Claude Shannon]]
+
+* [[https://homepages.cwi.nl/~schaffne/courses/infcom/2014/reports/Report_Lucas_Slot_Sebastian_Zur.pdf][Explanation of Shannon's Noisy Channel Coding Theorem]]
+
+* [[https://web.stanford.edu/class/ee388/papers/ldpc.pdf][Gallagher's paper on Low Density Parity Check (LDPC) codes]]
