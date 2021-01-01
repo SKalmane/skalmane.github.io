@@ -1,0 +1,4 @@
+#+TITLE: My blog
+#+OPTIONS: toc:nil
+
+* [[file:blog/complexity_theory.html::<?xml version="1.0" encoding="utf-8"?>][Complexity theory]]

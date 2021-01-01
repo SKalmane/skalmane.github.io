@@ -1,0 +1,59 @@
+#+TITLE: Complexity Theory
+#+OPTIONS: toc:nil
+
+This page captures my initial thoughts about compelxity theory
+* What is a complex system?
+  A system that has diverse agents who are connected to each other and
+  interdependent, while being adaptive to changes would classify as a complex
+  system. To clarify this technical definition, some examples:
+** The human body
+   The human body has diverse agents (various organs which co-operate and
+   possibly compete for energy and resources) which are interdependent - and
+   these agents are adaptive - and change based upon various criteria like time,
+   state of other agents etc
+** The stock market
+
+* What are not complex systems?
+  To be a complex system, a system has to satisfy *all* the 4 criteria mentioned
+  above. It is important to realize that *complicated* does not mean
+  *complex*. A voice assistant system built on machine learning algorithms and
+  multiple cloud services may be 'complex' from a technical perspective, but
+  does not classify as a 'complex system'. This is because, while we could make
+  a case that it consists of diverse, connected, interdependent agents (ASR,
+  NLU, End Services etc), these agents are not adaptive.
+
+* Why are complex systems interesting?
+  Complex systems have some really cool properties:
+** They are unpredictable!
+   Complex systems result in interesting bottom up emergent properties which are
+   unexpected and unpredictable. The chaotic traffic patterns in a bustling city
+   center are hard to predict and model, and are a result of numerous agents
+   making independent decisions. An example of such a bottom-up phenomena - the
+   wetness of water - individual water molecules are not 'wet', but when
+   combined - they cause the property of 'wetness'.
+** They somehow keep working!
+   It is strange to realize that while these systems are immensely hard to grasp
+   and model, they somehow are fully functioning systems, and are quite fault
+   tolerant. In fact, they thrive. Going back to our traffic example, inspite of
+   the persistent chaos, somehow everybody makes it to their desired destination
+   almost all the time, on time!
+** They might result in black swan events
+   While these systems are reasonably fault tolerant, they do result in some rather fat
+   tail events which might have immense consequences. These events are usually
+   hard to predict and hard to plan for.
+
+* Why are complex systems important?
+  The world is becoming more and more complex. Today, we have more and more
+  connections between disparate groups of people and more adapatation as a
+  result. To help us make sense of this increasingly 
+
+* Some questions
+** How do we make non-complex systems complex
+   If we'd want to imbibe certain 'simple' man-made systems with the properties
+   of a complex system, how might we go about doing it? Would we want to?
+** Role of an individual agent in a complex system
+   It seems that in a complex system, an individual is basically a cog in a
+   giant wheel, and it is hard to gauge their impact. Is it possible to actually
+   quantify a single agent's impact in such a system, since we seem to be
+   talking about aggregate impacts, and the results are also seen in the
+   aggregate.
