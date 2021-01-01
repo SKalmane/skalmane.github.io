@@ -1,14 +1,12 @@
 #+TITLE: My technical reading list
 #+OPTIONS: toc:nil
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 
 This page contains my technical reading list
 
 * [[https://www.rand.org/content/dam/rand/pubs/research_memoranda/2006/RM3420.pdf][On distributed communications by Baran]]
-
 * Queuing systems by Kleinrock
-
-* [[https://www.cs.princeton.edu/courses/archive/fall06/cos561/papers/cerf74.pdf][A Protocol for Packet Network Intercommunication by Cerf and Kahn]]
-
+* [[https://www.cs.princeton.edu/courses/archive/fall06/cos561/papers/cerf74.pdf][The TCP/IP Paper by Cerf and Kahn]]
 * [[https://www.csee.umbc.edu/courses/471/papers/turing.pdf][Computing machinery and Intelligence by Alan Turing]]
 
 * [[http://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf][A Mathematical theory of Communication by Claude Shannon]]

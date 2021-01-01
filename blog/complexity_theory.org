@@ -1,7 +1,8 @@
 #+TITLE: Complexity Theory
-#+OPTIONS: toc:nil
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+#+HTML_HEAD: <style> #content{max-width:1800px;}</style>
 
-This page captures my initial thoughts about compelxity theory
+This page captures my initial thoughts about complexity theory
 * What is a complex system?
   A system that has diverse agents who are connected to each other and
   interdependent, while being adaptive to changes would classify as a complex
