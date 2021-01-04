@@ -1,0 +1,75 @@
+#+TITLE: The internet and economic complexity
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+#+HTML_HEAD: <style> #content{max-width:1800px;}</style>
+
+* Dancing landscapes and rugged landscapes
+Imagine a hiker trying to get to the absolute top of a mountain. This
+hypothetical hiker of ours does not have a map to consult and intends to reach
+the peak using just their intuition and experience with past peaks.
+
+One way the hiker could do this is to always attempt to move in a direction which
+takes them higher, and keep going until, in no direction, can they find a way to
+go any higher. This is a standard [[https://en.wikipedia.org/wiki/Hill_climbing][hill climbing algorithm]], and gets the hiker to
+a 'local peak' - a peak which may not be the highest absolute point on the
+mountain, but appears as such without additional information or knowledge about
+the mountain. There may be many such local peaks on the mountain, and a hiker
+who uses the hill climbing algorithm could end up at any of these local peaks
+while aiming to reach the global peak. 
+
+But a hiker with a map to the peak could very well take the best known trail and
+make it, and once at the top, rest easy knowing that they've made it.
+
+A mountain with such multiple local peaks could be categorized as a 'rugged
+landscape' - a landscape where the path to the global maxima is not evident, and
+a traveler aiming to get to the top might end up at a local maxima, and not even
+know it, in many cases. 
+
+Now, let us imagine an earth in a different universe, one on which tectonic
+activity is rampant, and the plates constantly keep shifting, causing massive
+changes in the terrain from one hour to the next. Now imagine, somehow, that
+humanity has been able to survive and thrive in such a world and that this world
+too has adventurers who aim to scale peaks. On attempting a hike, they might
+start by using the standard hill climbing techniques to get to their closest
+peak, and on doing so, start to relax that they have reached *a* top, but wait -
+the landscape changes from underneath them (without killing them!) and suddenly,
+they are no longer at the peak, but at a trough - and they see the peak out
+there in the distance! They need to strategize how to get to the peak again and
+spend time and effort getting to the peak again. On such a world, getting to the
+peak (and staying there!) is a neverending battle. Such a landscape would be
+what we call a 'dancing landscape' - one which dances and changes right beneath
+our feats. 
+
+* Building and maintaining a firm before the internet 
+Building a business before the era of the internet required numerous skills. You
+had to find the right talent required to service your customers , figure out the
+best way to spread the word about your services, while at the same time keep an
+eye on competitors and continue to build customer loyalty. One definition of
+success for such businesses could be defined as being the best at what they do
+*in their region*, and having the most sales/bringing in the most profit amongst
+similar companies in their city/state/country. Companies would optimize to reach
+their 'local peaks' (however local could be defined here) and attempt to stay
+there. The landscape could still change from under them - competitors could
+spring up, government regulations might change the equation - but the rate of
+change was such that companies could still focus on building strategies and have
+reasonable certainty that the world wouldn't change by the time the strategy was
+implemented. 
+
+This would typically manifest in companies who reached strong positions stay
+there for a while and exploit their advantages, until the landscape slowly
+eroded from under them and the world changed (Examples: Standard Oil, Carnegie
+Steel, AT&T, etc). While firms would spend the earlier parts of their lives
+exploring (searching for the right product/figuring out the best way to
+sell/market etc), they could spend a significant chunk of their later existence
+optimizing their returns and utilizing their competitive advantages. Standard
+Oil and the brouhaha in the late 1800's about their anti-competitive tendencies
+ would be a great showcase of how companies could do this.
+
+* Additional complexity due to the internet
+
+* Exploring/Exploiting Dilemma
+
+* Complexity is an emergent property of diverse agents acting in their self interest
+
+* Credit
+The terminologies and concepts in this post are borrowed from Scott E Page's
+course on complexity
