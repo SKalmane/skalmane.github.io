@@ -1,7 +1,0 @@
-#+TITLE: My blog
-#+OPTIONS: toc:nil
-#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
-
-* [[file:blog/complexity_theory.html::<?xml version="1.0" encoding="utf-8"?>][Complexity theory]]
-
-* [[file:blog/internet_and_complexity.html::<head>][Internet and increasing complexity]]
