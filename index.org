@@ -1,9 +1,0 @@
-#+TITLE: Kalmane's Korner
-#+OPTIONS: toc:nil
-#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
-#+HTML_HEAD: <style> #content{max-width:1800px;}</style>
-
-* [[file:blog.html::<?xml version="1.0" encoding="utf-8"?>][My blog]]
-* My projects
-* [[file:technical_books.html::<?xml version="1.0" encoding="utf-8"?>][List of interesting papers/books]]
-

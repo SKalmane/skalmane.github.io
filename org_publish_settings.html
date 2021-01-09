@@ -6,7 +6,7 @@
 <!-- 2021-01-09 Sat 16:20 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>My blog</title>
+<title>&lrm;</title>
 <meta name="generator" content="Org mode" />
 <meta name="author" content="Kalmane" />
 <style type="text/css">
@@ -193,12 +193,6 @@
   .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
-<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/htmlize.css"/>
-<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/readtheorg.css"/>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
-<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
 <script type="text/javascript">
 /*
 @licstart  The following is the entire license notice for the
@@ -248,13 +242,50 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<h1 class="title">My blog</h1>
-
-<div id="outline-container-org4b3e931" class="outline-2">
-<h2 id="org4b3e931"><span class="section-number-2">1</span> <a href="blog/complexity_theory.html">Complexity theory</a></h2>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org3bd8a61">1. How to export via org-publish</a></li>
+</ul>
 </div>
-<div id="outline-container-orgcfb6195" class="outline-2">
-<h2 id="orgcfb6195"><span class="section-number-2">2</span> <a href="blog/internet_and_complexity.html">Internet and increasing complexity</a></h2>
+</div>
+<div id="outline-container-org3bd8a61" class="outline-2">
+<h2 id="org3bd8a61"><span class="section-number-2">1</span> How to export via org-publish</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+The following needs to be added to your .emacs to enable publishing of directories
+This has been borrowed from the excellent article at <a href="https://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html">Orgmode.org</a>
+</p>
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(require 'ox-publish)
+(setq org-publish-project-alist
+      '(
+
+        ;; ... add all the components here (see below)...
+        ("org-notes"
+         :base-directory "~/OrgExport/org/"
+         :base-extension "org"
+         :publishing-directory "~/OrgExport/public_html/"
+         :recursive t
+         :publishing-function org-html-publish-to-html
+         :headline-levels 4             ; Just the default for this project.
+         :auto-preamble t
+         )
+
+        ("org-static"
+         :base-directory "~/org/"
+         :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf"
+         :publishing-directory "~/public_html/"
+         :recursive t
+         :publishing-function org-publish-attachment
+         )
+
+        ("my-webpage" :components ("org-notes" "org-static"))
+        ))
+</pre>
+</div>
+</div>
 </div>
 </div>
 <div id="postamble" class="status">
